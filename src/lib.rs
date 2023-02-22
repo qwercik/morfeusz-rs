@@ -1,5 +1,5 @@
 pub mod morfeusz;
 mod helpers;
 
-pub use morfeusz::*;
+pub use crate::morfeusz::*;
 

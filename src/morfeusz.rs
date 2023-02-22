@@ -22,11 +22,11 @@ extern "C" {
 #[derive(Clone, Debug)]
 #[allow(dead_code)]
 pub struct InterpMorf {
-    p: i32,
-    k: i32,
-    forma: String,
-    haslo: String,
-    interp: String
+    pub p: i32,
+    pub k: i32,
+    pub forma: String,
+    pub haslo: String,
+    pub interp: String
 }
 
 pub fn about() -> String {
